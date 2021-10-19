@@ -1,5 +1,5 @@
 
-.no-gutters {
+/* .no-gutters {
     margin-right: 0;
     margin-left: 0;
     
@@ -12,5 +12,64 @@
 .no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
+} */
+
+
+.btn {
+    padding:.4rem 2rem;
+    font-size: .90rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border-radius: 2rem;
+    border-style: none;
+    border: 1px solid whitesmoke;
+    background-color:#999999; 
+    color: white;
+    transition: 300ms;
 }
+
+ .jumbotron > h2 {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+ }
+ .jumbotron > p {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+ }
+ .jumbotron > a {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+} 
+ 
+
+.footerItems {
+    display: flex;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
   
+  @media only screen and (max-width: 600){
+      .navbar div {
+          display: flex;
+          flex-direction: column;
+      }
+      section {
+          display: flex;
+          flex-direction: column;
+      }
+      section * {
+          width: 100%;
+      }
+      .footerItems {
+          display: flex;
+          flex-direction: column;
+      }
+    }
