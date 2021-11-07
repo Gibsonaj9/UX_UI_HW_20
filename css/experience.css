@@ -7,7 +7,7 @@
 }
 
 .card > img {
-    border-radius: 0px;
+    border-radius: 15px;
     padding: 15px;
 }
 
@@ -24,11 +24,20 @@
     transition: 300ms;
 }
 
-.footerItems {
+/* .footerItems {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: auto;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
+  } */
+
+  .footerItems {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E1D4BD;
   }
